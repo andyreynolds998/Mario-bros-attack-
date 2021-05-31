@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mario bros attack video game</h1>
+    </header>
+    <div id="status"></div>
+    <main class="container">
+        <div class="character-name">
+            <p>Toad</p>
+            <div id="character" class="character-container">
+                <img src="https://i.gifer.com/Z6W2.gif" alt="Toad image">
+                <p id="character-points" class="points">Points: 100</p>
+                <button id="character-attack-btn" onclick="characterAttack();">Attack</button>
+            </div>
+        </div>
+        <div class="vs">
+            <p>VS</p>
+        </div>
+        <div class="character-name">
+            <p>Link</p>
+            <div id="enemy" class="character-container">
+                <img src="http://orig14.deviantart.net/e1e0/f/2013/024/0/5/chibi_link_deku_leaf_by_timtam13-d5smenk.gif" alt="Link Image">
+                <p id="enemy-points" class="points">Points: 100</p>
+                <button id="enemy-attack-btn" onclick="enemyAttack();">Attack</button>
+            </div>
+        </div>
+    </main>
+  <script src="script.js"></script>
+</body>
+</html>
